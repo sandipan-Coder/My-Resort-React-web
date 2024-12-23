@@ -1,0 +1,87 @@
+#Listing{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 200px;
+}
+#Listing form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#listingtitle{
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 15px;
+}
+#Listing .list{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+#Listing .list label{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+#Listing form .list input{
+    width: 90%;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border: 0.5px solid rgb(172, 172, 168);
+    border-radius: 7px;
+}
+#Listing form .list textarea{
+    width: 90%;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border: 0.5px solid rgb(172, 172, 168);
+    border-radius: 7px;
+}
+#listbtn{
+    padding: 10px 40px 10px 40px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#listbtn svg {
+    width: 20px;
+    height: 20px;   
+    color: white;
+}
+#listbtn:hover{
+    background-color: rgb(11, 60, 209);
+}
+@media (max-width: 1075px){
+    #Listing{
+        padding-top: 100px;
+    }
+}
